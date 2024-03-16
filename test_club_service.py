@@ -16,7 +16,7 @@ def test_create_club(club: ClubIn = club):
 
 def test_update_cast_title(club: ClubIn = club):
     club_upd = ClubOut(
-        name='Bred Pitt',
+        name='PSG',
         country=club.country,
         trophies=club.trophies,
         id=1
