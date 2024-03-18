@@ -14,7 +14,7 @@ def test_create_club(club: ClubIn = club):
                           'trophies': club.trophies}
 
 
-def test_update_cast_title(club: ClubIn = club):
+def test_update_club_name(club: ClubIn = club):
     club_upd = ClubOut(
         name='PSG',
         country=club.country,
@@ -28,7 +28,7 @@ def test_update_cast_title(club: ClubIn = club):
                               }
 
 
-def test_update_cast_genre(club: ClubIn = club):
+def test_update_club(club: ClubIn = club):
     club_upd = ClubOut(
         name=club.name,
         country=club.country,
